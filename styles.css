@@ -126,8 +126,8 @@ details p { margin:-7px 44px 24px 0; color:var(--muted); font-size:14px; }
 .partners .eyebrow { color:var(--blue); }
 .partners h2 { max-width:850px; margin:0 auto; }
 .partners > p { max-width:560px; margin:28px auto 45px; color:var(--muted); font-size:15px; }
-.partner-logos { max-width:1120px; margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
-.partner-logo { min-height:86px; padding:16px 18px; display:flex; align-items:center; justify-content:center; gap:9px; color:#1d1d1f; background:#fff; border:1px solid #e4e4e8; border-radius:16px; box-shadow:0 8px 24px rgba(0,0,0,.045); font-size:16px; font-weight:760; line-height:1; letter-spacing:-.045em; }
+.partner-logos { max-width:1120px; margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); gap:12px 30px; }
+.partner-logo { min-height:68px; padding:10px 4px; display:flex; align-items:center; justify-content:center; gap:9px; color:#1d1d1f; background:transparent; border:0; border-radius:0; box-shadow:none; font-size:16px; font-weight:760; line-height:1; letter-spacing:-.045em; }
 .partner-logo i { width:13px; height:13px; display:block; flex:0 0 13px; border-radius:4px; background:#6f6f73; }
 .partner-logo.ren { color:#2c667d; }.partner-logo.ren i { background:#f9b234; border-radius:50%; }
 .partner-logo.reso { color:#17824b; font-weight:850; }.partner-logo.reso i { background:#1b7942; border-radius:50% 0 50% 50%; }
@@ -197,6 +197,6 @@ footer { padding:58px max(30px,calc((100vw - 1120px)/2)); background:var(--soft)
   .documents { padding-bottom:75px; }
   .document-card { min-height:auto; padding:25px; }
   .partners { padding:80px 24px; }
-  .partner-logos { grid-template-columns:repeat(2,1fr); gap:9px; }
-  .partner-logo { min-height:62px; padding:10px 12px; font-size:12px; }
+  .partner-logos { grid-template-columns:repeat(2,1fr); gap:6px 18px; }
+  .partner-logo { min-height:54px; padding:8px 0; font-size:12px; }
 }
